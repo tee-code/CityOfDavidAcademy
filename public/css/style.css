@@ -1,0 +1,372 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.card ul.list-group a.list-group-item h5 {
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 1.2rem;
+}
+
+.float-list {
+    position: absolute;
+    background-color: red;
+    cursor: pointer;
+    right: 15px;
+    display: inline;
+    /* border-radius: 50px; */
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.float-list li a {
+    color: white !important;
+}
+
+.clear {
+    clear: both;
+}
+
+.slider {
+    margin-top: -20px !important;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div.push-up {}
+
+a.navbar-brand {
+    font-weight: bold;
+}
+
+a.navbar-brand span.lara {
+    background-color: rgb(2, 156, 226);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50px 0 0 50px;
+}
+
+a.navbar-brand span.learn {
+    background-color: rgb(225, 88, 79);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 0px 50px 50px 0px;
+    margin-left: 3px;
+}
+
+.text-blue {
+    color: rgb(2, 156, 226) !important;
+    font-weight: bold;
+}
+
+.text-orange {
+    color: orangered !important;
+    font-weight: bold;
+}
+
+.text-red {
+    color: red !important;
+    font-weight: bold;
+}
+
+.divider {
+    border-left: 2px solid red !important;
+    transform: skewX(20deg);
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+.flash-button {
+    animation: shake 1300ms infinite;
+    font-weight: bold;
+}
+
+h1.label,
+h2.label {
+    background-color: rgb(117, 103, 186);
+    color: whitesmoke;
+    animation: shake 1300ms infinite;
+}
+
+h2.label-red {
+    background-color: rgb(225, 88, 79);
+}
+
+.card {
+    cursor: pointer
+}
+
+.hd {
+    font-size: 25px;
+    font-weight: 550
+}
+
+.card.hover,
+.card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+}
+
+.services .img {
+    margin-bottom: 35px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222)
+}
+
+.services .card-title {
+    font-weight: 600
+}
+
+.services button.focus,
+.services button:focus {
+    outline: 0;
+    box-shadow: none !important
+}
+
+.services .ft {
+    margin-top: 25px
+}
+
+.services .chk {
+    margin-bottom: 5px
+}
+
+.services .rck {
+    margin-top: 20px;
+    padding-bottom: 15px
+}
+
+.services div.testimonial {
+    background: rgb(117, 103, 186);
+    color: white;
+    border-radius: 50px;
+    border: 2px ridge orangered;
+}
+
+.testimonials p.card-text {
+    font-size: 14px;
+    line-height: 20px !important;
+    font-weight: 500;
+}
+
+.testimonials .small {
+    letter-spacing: 0.5px !important
+}
+
+.testimonials .container {
+    margin-top: 50px
+}
+
+.testimonials .card-header {
+    min-height: 11rem;
+    background: #006688;
+}
+
+.testimonials h6 {
+    color: #333;
+}
+
+.testimonials .card {
+    background: #E6E7E9;
+}
+
+.testimonials .img-1 {
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: -127px !important;
+    box-shadow: 3px 15px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+}
+
+.testimonials .quotes {
+    position: relative;
+    top: -90px
+}
+
+.testimonials .quotes-img {
+    width: 50px;
+    height: auto
+}
+
+.testimonials .carousel-indicators li {
+    cursor: pointer;
+    border-radius: 50% !important;
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+    margin: 0 15px 18px 15px;
+    color: #333;
+    background-color: #333 !important;
+    top: -10px;
+    position: relative
+}
+
+.testimonials .carousel-indicators li.active {
+    opacity: 1;
+}
+
+.testimonials #carouselExampleIndicators {
+    box-shadow: -5px 15px 25px rgba(7, 7, 7, 0.5) !important
+}
+
+.testimonials .carousel-inner {
+    border-radius: 15px !important
+}
+
+.contact-wrapper {
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    background: -moz-linear-gradient(left, #0072ff, #00c6ff);
+    background: linear-gradient(left, #0072ff, #00c6ff);
+}
+
+.contact .contact-form {
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+.contact .contact-form .form-control {
+    border-radius: 0rem;
+    background: rgb(2, 156, 226);
+    color: white;
+}
+
+.contact .contact-form .form-control::placeholder {
+    color: white;
+}
+
+.contact .contact-image {
+    text-align: center;
+}
+
+.contact .contact-image img {
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+
+.contact .contact-form form {
+    padding: 14%;
+}
+
+.contact .contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact .contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+
+.contact .contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact .btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+footer.page-footer {
+    background: rgb(2, 156, 226);
+    color: white;
+    position: absolute;
+    left: 0;
+}
+
+footer.page-footer a {
+    color: white;
+}
+
+footer a {
+    cursor: pointer;
+}
+
+footer .footer-copyright {
+    background: rgb(225, 88, 79);
+}
+
+@keyframes glowing {
+    0% {
+        background-color: rgb(225, 88, 79);
+        box-shadow: 0 0 5px rgb(130, 2, 99);
+    }
+    50% {
+        background-color: rgb(225, 88, 79);
+        box-shadow: 0 0 20px rgb(130, 2, 99);
+    }
+    100% {
+        background-color: rgb(2, 156, 226);
+        box-shadow: 0 0 5px rgb(130, 2, 99);
+    }
+}
+
+@keyframes shake {
+    0% {
+        background-color: rgb(225, 88, 79);
+        box-shadow: 0 0 5px rgb(130, 2, 99);
+        transform: rotate(1deg);
+    }
+    50% {
+        background-color: rgb(225, 88, 79);
+        box-shadow: 0 0 20px rgb(130, 2, 99);
+        transform: rotate(2deg);
+    }
+    100% {
+        background-color: rgb(2, 156, 226);
+        box-shadow: 0 0 5px rgb(130, 2, 99);
+        transform: rotate(3deg);
+    }
+}
+
+@media (max-width:500px) {
+    .contact .contact-form {
+        width: 90%;
+    }
+}
