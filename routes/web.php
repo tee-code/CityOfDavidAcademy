@@ -24,6 +24,7 @@ Route::get('/about', 'PagesController@about');
 Route::get('/ckeditor', 'CkeditorController@index');
 Auth::routes();
 
+Route::get('/', 'DashboardController@index')->name('dashboard');
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 Route::get('/dashboard/profile/{id}', 'ProfileController@show')->name('profile');
 Route::get('/dashboard/users', 'UsersController@index');
