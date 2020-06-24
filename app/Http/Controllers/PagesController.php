@@ -18,12 +18,9 @@ class PagesController extends Controller
         return view('pages.about')->with('title',$title);
     }
 
-    //service page controller
-    public function services(){
-        $data = array(
-            'title' => "Our Services",
-            'services' => ['Web Design','Programming','Graphics Design']
-        );
-        return view('pages.services')->with($data);
+    //profile page controller
+    public function profile(){
+
+        return view('pages.profile')->with($data);
     }
 }

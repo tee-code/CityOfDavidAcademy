@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "CityOfDavidAcademy",
     "type": "project",
-    "description": "Learning Management System, a video based online tutorials for students",
+    "description": "A mini school management system for City of David Academy Primary School together with Payroll and Expenses Management System",
     "keywords": [
         "framework",
         "laravel"

@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('APP_NAME', 'LaraLearn') }}</title>
+    <title>{{ env('APP_NAME', 'CityOfDavidAcademy') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -31,11 +31,14 @@
 </head>
 <body>
     <div id="app">
-            @include('inc.navbar')
-        <div class = "push-up">
-            @include('inc.messages')
-            @yield('content')
-        </div>
+
+        @include('inc.navbar')
+        <header id = "showcase">
+            <div class="showcase-content">
+                @include('inc.messages')
+                @yield('content')
+            </div>
+        </header>
 
         <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
         <script src="https://cdn.ckeditor.com/ckeditor5/19.0.0/classic/ckeditor.js"></script>

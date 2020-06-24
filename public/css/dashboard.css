@@ -1,0 +1,361 @@
+/* Scroll bar */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #006688;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #006688;
+}
+
+
+/* End of Scroll bar */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background: #eee;
+}
+
+.bg-theme-color {
+    background: #006688;
+    color: aliceblue;
+}
+
+.text-tomato {
+    color: tomato !important;
+}
+
+.alert-success {
+    background: #006688 !important;
+    color: whitesmoke !important;
+}
+
+.card-body .text-muted {
+    color: #eeeeee !important;
+}
+
+.col-lg-3,
+.col-xl-3 {
+    flex: 0 0 20.833333325% !important;
+    max-width: 20.833333325% !important;
+}
+
+.col-lg-9,
+.col-xl-9 {
+    flex: 0 0 79.166666635% !important;
+    max-width: 79.166666635% !important;
+}
+
+.btn-primary {
+    background-color: #006688 !important;
+}
+
+
+/* Sidebar */
+
+.expand {
+    z-index: 89534095;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    color: #eee;
+    background: #006688;
+    border-radius: 100%;
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    padding: 5px;
+    text-align: center;
+}
+
+div.sidebar {
+    background: #eee;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.border-bottom {
+    border-bottom: 2px ridge #006688;
+}
+
+a.navbar-brand {
+    color: #006688;
+    font-weight: bold;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-normal {
+    font-weight: normal;
+}
+
+a.username {
+    color: #006688;
+    text-decoration: none;
+}
+
+.sidebar-link {
+    transition: all .4s;
+    color: #006688 !important;
+}
+
+.sidebar-link:hover {
+    background: #006688;
+    color: #eee !important;
+}
+
+.current {
+    background: #006688;
+    color: #eee !important;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.current:hover {
+    background: #006688;
+    color: #eee !important;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px grey;
+    transform: translate(-1px);
+}
+
+ul li.icon-parent {
+    position: relative;
+}
+
+ul li a.icon-bullet::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 15px;
+    width: 12px;
+    height: 12px;
+    background: tomato;
+    color: tomato;
+    border-radius: 100%;
+}
+
+ul li a i.fas {
+    width: 30px;
+}
+
+
+/* End of Sidebar */
+
+
+/* Top Navbar */
+
+ul li.icon-parent {
+    position: relative;
+}
+
+ul li a.icon-bullet::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 15px;
+    width: 12px;
+    height: 12px;
+    background: tomato;
+    color: tomato;
+    border-radius: 100%;
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        position: static;
+        height: auto;
+        overflow: auto;
+    }
+    .topbar {
+        position: static;
+    }
+    ul.custom-list {
+        height: 90%;
+        overflow: scroll;
+    }
+    .col-lg-9,
+    .col-xl-9 {
+        max-width: 100% !important;
+        width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+    .expand {
+        display: none;
+    }
+}
+
+
+/* End of TopNavBar */
+
+
+/* section */
+
+div.row.content-wrapper {
+    height: 90%;
+    overflow: auto;
+}
+
+.card {
+    position: relative;
+}
+
+.fancy-header {
+    background-color: #006688;
+    color: white;
+}
+
+.fancy-header p {
+    font-size: 0.7rem;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* end of section */
+
+
+/* Form Input */
+
+select,
+input:not([type="submit"]) {
+    border: none !important;
+    outline: none !important;
+    border-bottom: 2px solid #006688 !important;
+    color: #006688;
+    font-weight: normal;
+    border-radius: 0%;
+    width: 100%
+}
+
+select,
+input:not([type="submit"]):focus {
+    outline: none;
+    border: none;
+}
+
+input[type="submit"] {
+    background: #006688 !important;
+    transition: all .5;
+}
+
+input[type="submit"]:hover {
+    transform: rotate(2deg);
+    font-weight: bold;
+}
+
+label {
+    color: #006688 !important;
+    font-weight: normal;
+}
+
+
+/* End of Form Input */
+
+
+/* Table */
+
+.card-body table thead {
+    border-top: none;
+    background: #006688 !important;
+    text-align: center;
+}
+
+.card-body .table thead tr th {
+    color: white !important;
+    text-align: center !important;
+}
+
+.card-body .table th,
+.card-body .table td {
+    border-bottom: 2px solid #006688 !important;
+    color: #006688;
+    text-align: center !important;
+    width: 50px !important;
+    word-break: keep-all;
+    word-wrap: normal;
+}
+
+.fa,
+.fas {
+    cursor: pointer !important;
+}
+
+.card-body {
+    overflow: scroll !important;
+}
+
+.dashboard {
+    overflow: hidden !important;
+}
+
+
+/* End of Table */
+
+.accordion {
+    background-color: #eee;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #f1f1f1;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}

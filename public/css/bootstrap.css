@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 article,
@@ -4895,7 +4895,7 @@ tbody.collapse.show {
 }
 
 .card-footer:last-child {
-    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px)
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
 }
 
 .card-header-tabs {

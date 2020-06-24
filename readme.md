@@ -7,13 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About LaraLearn
+## About CityOfDavidAcademy School Management System
 
-LaraLearn is a video based learning management system built with Laravel 6 and Bootstrap 4, It has the following features:
+It is a mini school management system for City of David Academy Primary School.
+It also includes Payroll and Expenses Management System
 
-- Business Page (about us, services, contact us, testimonials, team)
-- Blog
-- Video-Based CLASSROOM
-- Q/A Forum Section For Each Video
 
 

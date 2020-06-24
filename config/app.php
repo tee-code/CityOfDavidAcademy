@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'LaraLearn'),
+    'name' => env('APP_NAME', 'CityOfDavidAcademy'),
 
     /*
     |--------------------------------------------------------------------------
