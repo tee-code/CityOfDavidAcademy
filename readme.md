@@ -12,5 +12,11 @@
 It is a mini school management system for City of David Academy Primary School.
 It also includes Payroll and Expenses Management System
 
+## Information needed
+database name - cityofdavidacademy or change it to what you like in the .env file.
+php version - 7.2
+user registration - visit /register and register a new admin.
+
+
 
 
